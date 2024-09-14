@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Teller</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="./voiceRSS.js" defer></script> -->
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="container flex items-center justify-between">
+        <div class="joke-box">
+            <img class="robot-img" src="./assets/bubl-love-island.gif" alt="">
+            <div class="joke-audio flex items-center justify-between flex-col">
+                <button class="question" id="joke-button">Tell me a joke</button>
+                <audio id="audio" controls hidden></audio>
+            </div>
+        </div>
+        <textarea hidden id="joke-text" ></textarea>
+    </div>
+</body>
+</html>
